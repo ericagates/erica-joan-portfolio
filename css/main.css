@@ -359,18 +359,20 @@ nav ul li a{
   display: inline-block;
   padding: 10px 60px 10px 0px;
  }
- 
+
 .work-page{
   background-color: #f0f7ff;
-}
-
-#work-jubilee-long {
-   margin: 0px 133px;
+  margin: 0 auto;
  }
 
-#work-jubilee-long h2{
+.work-page #work-jubilee-long h2, .work-page #work-rogue-pickings h2{
    font-family: 'october moon', serif;
    font-size: 48px;
-   margin: 0 auto;
+   margin: 0 50px;
    padding: 50px 0px 5px 0px;
  }
+
+#work-jubilee-long iframe{
+ margin: 20px 50px;
+ background-color: white;
+}
