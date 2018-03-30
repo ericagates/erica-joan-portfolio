@@ -365,14 +365,14 @@ nav ul li a{
   margin: 0 auto;
  }
 
-.work-page #work-jubilee-long h2, .work-page #work-rogue-pickings h2{
+.work-page h2 {
    font-family: 'october moon', serif;
    font-size: 48px;
    margin: 0 50px;
    padding: 50px 0px 5px 0px;
  }
 
-#work-jubilee-long iframe{
+.work-page iframe{
  margin: 20px 50px;
  background-color: white;
 }
