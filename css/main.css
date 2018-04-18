@@ -4,16 +4,28 @@
 }
 /***** BASE STYLES*****/
 
-body{
-font-family: 'Heebo', sans-serif;
-font-size: 24px;
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
 }
 
-#about, #work, #skills{
+body{
+  font-family: 'Heebo', sans-serif;
+  font-size: 24px;
+}
+
+#work{
         height: 680px;
 }
+
+#about, #skills {
+        height: 620px;
+}
 #contact{
-        height: 500px;
+        height: 550px;
 }
 
 
@@ -102,6 +114,9 @@ nav ul li a{
     padding: 0px 110px 0px 110px;
 }
 
+#home{
+  padding-top: 150px;
+}
 .home-left, .home-right{
   background-color: #f0f7ff;
   height: 660px;
@@ -164,6 +179,7 @@ nav ul li a{
 #work{
   clear: both;
   background-color: #fdf7fb;
+  padding-top: 100px;
 }
 
 #work h2{
@@ -201,12 +217,18 @@ nav ul li a{
   text-align: center;
 }
 
-#about, #skills{
+#about{
+  clear: both;
+  background-color: #f0f7ff;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+#skills
+{
   clear: both;
   background-color: #f0f7ff;
   margin: 0 auto;
 }
-
 #about h2{
   font-family: 'october moon', serif;
   font-size: 48px;
@@ -360,6 +382,9 @@ nav ul li a{
   padding: 10px 60px 10px 0px;
  }
 
+#work-jubilee-long, #work-rogue-pickings{
+  padding-top: 130px;
+}
 .work-page{
   background-color: #f0f7ff;
   margin: 0 auto;
